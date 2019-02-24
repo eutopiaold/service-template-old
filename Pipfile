@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-graphql = "*"
+graphene = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+graphene-sqlalchemy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
